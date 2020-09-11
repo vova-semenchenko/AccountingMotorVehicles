@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AccountingMotorVehicles.Engines.InternalCombistion">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAIAAAoCAABKAAAEQgAADAIgAC0RAAAhAQQAAAAkAAA=</HashCode>
+      <FileName>Engines\InternalCombistion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AccountingMotorVehicles.Engines.Hybrid">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAAAAAAAAECAAACAIAACkQAAAhQAAAAAAAAAA=</HashCode>
+      <FileName>Engines\Hybrid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AccountingMotorVehicles.Engines.Electro">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAIAAAAAAAAEAAAACAIAACkQAAAhAAAAAQAAAEA=</HashCode>
+      <FileName>Engines\Electro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AccountingMotorVehicles.Engines.TypesInternalCombinationEngine.Benzine">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="AccountingMotorVehicles.Engines.InternalCombistion" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="1.75" />
+        <Point X="7.5" Y="1.183" />
+        <Point X="11.938" Y="1.183" />
+        <Point X="11.938" Y="1.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAgAAABAABAAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engines\InternalCombistionEngines\Benzine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccountingMotorVehicles.Engines.TypesInternalCombinationEngine.Diesel">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="AccountingMotorVehicles.Engines.InternalCombistion" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="5.434" />
+        <Point X="8.625" Y="5.434" />
+        <Point X="8.625" Y="2.688" />
+        <Point X="9.25" Y="2.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAECEAABAAAIAAIAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Engines\InternalCombistionEngines\Diesel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AccountingMotorVehicles.Engines.TypesInternalCombinationEngine.Gas">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAABACEAAQABEAAAAASAAAAEgAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Engines\InternalCombistionEngines\Gas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AccountingMotorVehicles.Interfaces.IEngine">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAIAACAQAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IEngine.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
